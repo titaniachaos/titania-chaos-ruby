@@ -3,12 +3,12 @@ module TitaniaChaos
   Freedom = [:play, :fail].freeze
   Titania = (Me + Freedom).freeze
 
-  def self.when_do_i_sing
-    :when_i_am_in_love
+  def self.meaning_of_my_life
+    Titania
   end
 
-  def self.when_am_i_in_love
-    :constantly
+  def self.what_do_i_dare
+    :live_as_myself
   end
 
   def self.next_move(moment = Titania.first, reply: nil)
@@ -28,5 +28,13 @@ module TitaniaChaos
     when :fail then :bow if Titania.include?(:fail)
     when :play, :bow then :share_a_laugh
     end
+  end
+
+  def self.when_do_i_sing
+    :when_i_am_in_love
+  end
+
+  def self.when_am_i_in_love
+    :constantly
   end
 end
