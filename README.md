@@ -1,10 +1,4 @@
-# Titania Chaos — A Life in Ruby
+# Titania Chaos — Works in Ruby
 
-`Titania = Me + Freedom`
-
-Love is what drives me.  
-Connection inspires me.  
-Inspiration makes me feel alive.  
-Titania is all about spreading love and laughter.
-
-[Read the Ruby](titania_chaos.rb)
+- **[Titania Chaos — A Self-Portrait](titania-self-portrait/README.md)** · The original self-portrait
+- **[I had nothing, I had, I have nothing again — Inspired by Damyan Damyanov](a-life-in-ruby/README.md)**
